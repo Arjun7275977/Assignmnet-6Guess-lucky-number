@@ -4,27 +4,29 @@
     align-items: center;
   }
   
-  .guess-container {
+   .guess-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center ;
     margin: 20px;
   }
-  
+   
   label {
     font-size: 1.2em;
     margin-right: 10px;
   }
   
-  input[type="number"] {
+   input[type="number"] {
     font-size: 1.2em;
     padding: 0.3em;
     margin-right: 10px;
-  }
+    background-color:  rgb(239, 235, 242);
+  } 
   
   button {
     font-size: 1.2em;
     padding: 0.3em;
+    background-color: rgb(201, 240, 122);
   }
   
   .message {
