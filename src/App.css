@@ -1,4 +1,43 @@
+.wrapper{
+  border:2px solid purple;
+  width: 70%;
+  display:flex;
+  margin:auto;
+  padding:2rem;
+  max-width: 70%;
+  gap:2rem;
+  border-radius: 12px;
+  overflow: scroll;
+}
+.wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+
+.card{
+ background-color: rgb(163, 163, 209);
+  border-radius: 10px;
+  min-height: 300px;
+ min-width: 300px;
+ font-size:bold ;
+ 
+ 
+}
+
+img{
+border-radius: 50%;
+border:2px green;
+
+border-color:rgba(92, 25, 47, 0.831);
+align-items: center;
+padding-top: 0px;
+margin-top: 15px;
+width: 200px;
+height: 200px;
+
+}
 .App {
+
   text-align: center;
 }
 
